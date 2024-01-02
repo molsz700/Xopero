@@ -40,9 +40,8 @@ connection.On("report_progress", (string message) =>
 var interval = config.GetSection("Settings:RepeatIntervalMinutes").Value;
 var timer = new PeriodicTimer(TimeSpan.FromMinutes(Convert.ToDouble(interval)));
 
-while (await timer.WaitForNextTickAsync())
+do
 {
-
     var request = new VolumeRequest()
     {
         MachineName = Environment.MachineName,
@@ -58,7 +57,9 @@ while (await timer.WaitForNextTickAsync())
     ms.Log(LogType.Info, "Request sent to server");
     var response = await client.PostAsync(apiAddress, content);
     ms.Log(LogType.Info, $"Server responded with code {response.StatusCode}");
-}
+} while (await timer.WaitForNextTickAsync());
 
 
 await host.RunAsync();
+
+
