@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\XoperoRecruitmentTask.Client\XoperoRecruitmentTask.Client.csproj" />
+    <ProjectReference Include="..\XoperoRecruitmentTask.Communication\XoperoRecruitmentTask.Communication.csproj" />
+    <ProjectReference Include="..\XoperoRecruitmentTask.Win32API\XoperoRecruitmentTask.Win32API.csproj" />
+  </ItemGroup>
+
+</Project>

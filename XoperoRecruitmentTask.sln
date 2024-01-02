@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "XoperoRecruitmentTask.ClientApp", "XoperoRecruitmentTask.ClientApp", "{892F72FB-CA00-4B85-A340-B665D6FE819A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XoperoRecruitmentTask.Win32API", "XoperoRecruitmentTask.Win32API\XoperoRecruitmentTask.Win32API.csproj", "{394A4D39-D9EF-42DA-86AA-68CECDB4B1D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XoperoRecruitmentTask.Client", "XoperoRecruitmentTask.Client\XoperoRecruitmentTask.Client.csproj", "{5E2FBBC1-DD4F-4C53-AFFC-6FE91F952937}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "XoperoRecruitmentTask.Common", "XoperoRecruitmentTask.Common", "{E04550C7-DAFA-49E8-A713-77184434AC19}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XoperoRecruitmentTask.Communication", "XoperoRecruitmentTask.Communication\XoperoRecruitmentTask.Communication.csproj", "{8943110A-4454-4A6B-9E4E-576643BC4756}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "XoperoRecruitmentTask.Server", "XoperoRecruitmentTask.Server", "{C4A8A55C-AB42-4C55-A3ED-11ED37FAA309}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XoperoRecruitmentTask.Server", "XoperoRecruitmentTask.Server\XoperoRecruitmentTask.Server.csproj", "{DDF08D2D-DA30-4F11-B271-16D81A6B5614}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XoperoRecruitmentTask.Logging", "XoperoRecruitmentTask.Logging\XoperoRecruitmentTask.Logging.csproj", "{1F911AEB-EB18-499F-BBF8-D5F2FED11543}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{394A4D39-D9EF-42DA-86AA-68CECDB4B1D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{394A4D39-D9EF-42DA-86AA-68CECDB4B1D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{394A4D39-D9EF-42DA-86AA-68CECDB4B1D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{394A4D39-D9EF-42DA-86AA-68CECDB4B1D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E2FBBC1-DD4F-4C53-AFFC-6FE91F952937}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E2FBBC1-DD4F-4C53-AFFC-6FE91F952937}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E2FBBC1-DD4F-4C53-AFFC-6FE91F952937}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E2FBBC1-DD4F-4C53-AFFC-6FE91F952937}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8943110A-4454-4A6B-9E4E-576643BC4756}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8943110A-4454-4A6B-9E4E-576643BC4756}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8943110A-4454-4A6B-9E4E-576643BC4756}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8943110A-4454-4A6B-9E4E-576643BC4756}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDF08D2D-DA30-4F11-B271-16D81A6B5614}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDF08D2D-DA30-4F11-B271-16D81A6B5614}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDF08D2D-DA30-4F11-B271-16D81A6B5614}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDF08D2D-DA30-4F11-B271-16D81A6B5614}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F911AEB-EB18-499F-BBF8-D5F2FED11543}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F911AEB-EB18-499F-BBF8-D5F2FED11543}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F911AEB-EB18-499F-BBF8-D5F2FED11543}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F911AEB-EB18-499F-BBF8-D5F2FED11543}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{394A4D39-D9EF-42DA-86AA-68CECDB4B1D3} = {892F72FB-CA00-4B85-A340-B665D6FE819A}
+		{5E2FBBC1-DD4F-4C53-AFFC-6FE91F952937} = {892F72FB-CA00-4B85-A340-B665D6FE819A}
+		{8943110A-4454-4A6B-9E4E-576643BC4756} = {E04550C7-DAFA-49E8-A713-77184434AC19}
+		{DDF08D2D-DA30-4F11-B271-16D81A6B5614} = {C4A8A55C-AB42-4C55-A3ED-11ED37FAA309}
+		{1F911AEB-EB18-499F-BBF8-D5F2FED11543} = {E04550C7-DAFA-49E8-A713-77184434AC19}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {02625423-073E-491D-BD13-47812B2D679B}
+	EndGlobalSection
+EndGlobal

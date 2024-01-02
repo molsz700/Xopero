@@ -1,0 +1,14 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/XoperoRecruitmentTask.Client/bin/Debug/net7.0
+/XoperoRecruitmentTask.Communication/bin/Debug/net7.0
+/XoperoRecruitmentTask.Communication/obj
+/XoperoRecruitmentTask.Client/obj
+/XoperoRecruitmentTask.Logging/bin/Debug/net7.0
+/XoperoRecruitmentTask.Logging/obj
+/XoperoRecruitmentTask.Server/bin/Debug/net7.0
+/XoperoRecruitmentTask.Server/obj
+/XoperoRecruitmentTask.Win32API/bin/Debug/net7.0
+/XoperoRecruitmentTask.Win32API/obj
