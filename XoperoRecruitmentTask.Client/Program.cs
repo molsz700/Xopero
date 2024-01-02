@@ -33,6 +33,7 @@ var connection = new HubConnectionBuilder()
 connection.StartAsync().Wait();
 connection.On("report_progress", (string message) =>
 {
+    Console.WriteLine(message);
     ms.Log(LogType.Info, $"Message from server: {message}\n");
 });
 
